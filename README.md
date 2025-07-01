@@ -29,12 +29,30 @@ data/
 ## 📁 프로젝트 구조
 
 ```
-📦 AI-Text-Classifier-DACON2025
-├── 📄 notebooks/
-├── 📄 docs/
-├── 📄 README.md
-└── 📄 .gitignore
+AI-Text-Classifier-DACON2025/
+├── README.md                                        # 프로젝트 설명
+├── train.csv, test.csv, sample_submission.csv       # 대회 데이터
+├── [Baseline]_TF-IDF....ipynb                      # � 현재 작업용 노트북
+│
+├── baseline/                                        # 베이스라인 참고
+│   └── [Baseline]_TF-IDF....ipynb
+│
+└── archive/                                         # 완료된 실험 아카이브
+    ├── (예시)250701_juwon_xgboost/
+    │   └── example.ipynb
+    ├── (예시)250701_tfidf_xgboost_baseline/
+    │   ├── experiment.ipynb                         # 실제 실험 노트북
+    │   └── README.md                                # 실험 결과 정리
+    └── (예시)250702_bert_korean/
 ```
+
+## � 작업 방식
+1. **실험 개발**: 최상위 노트북에서 작업
+2. **실험 완료**: `archive/YYMMDD_실험명/` 폴더로 아카이브  
+3. **결과 정리**: 각 폴더의 `README.md`에 AUC, 특징, 개선점 기록
+
+## 📝 폴더명 규칙
+`YYMMDD_모델명_특징` (예: `250701_tfidf_xgboost_baseline`)
 
 ---
 

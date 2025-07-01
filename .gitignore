@@ -1,0 +1,61 @@
+# 대용량 데이터 파일
+train.csv
+test.csv
+sample_submission.csv
+baseline_submission.csv
+
+# 데이터 폴더
+data/
+open/
+
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 가상환경
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 모델 파일
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# 임시 파일
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

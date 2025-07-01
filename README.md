@@ -32,7 +32,7 @@ data/
 AI-Text-Classifier-DACON2025/
 ├── README.md                                        # 프로젝트 설명
 ├── train.csv, test.csv, sample_submission.csv       # 대회 데이터
-├── [Baseline]_TF-IDF....ipynb                      # � 현재 작업용 노트북
+├── [Baseline]_TF-IDF....ipynb                      # 현재 작업용 노트북
 │
 ├── baseline/                                        # 베이스라인 참고
 │   └── [Baseline]_TF-IDF....ipynb
